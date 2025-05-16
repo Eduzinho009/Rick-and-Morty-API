@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 12,
         fontWeight: "light",
-        color: "white",
+        color: "#88e23b",
         textAlign: "center",
     },
     Nome: {

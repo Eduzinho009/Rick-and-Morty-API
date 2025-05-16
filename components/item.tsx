@@ -7,7 +7,6 @@ export const Item = ({ name, planet, species, location, image }: { name: string;
             <View style={styles.itemList}>
                 <Image style={styles.imageStyle} source={{ uri: image }} />
 
-                {/* Fundo azul abaixo da imagem */}
                 <View style={styles.textos}>
                     <Text style={styles.Nome}>{name}</Text>
                     <Text style={styles.titulos}>Planeta:</Text>
@@ -30,6 +29,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         width: "100%",
         height: "100%",
+        marginBottom: 20
     },
     itemList: {
         flexDirection: "column",
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 14,
         fontWeight: "light",
-        color: "white",
+        color: "#88e23b",
         textAlign: "center",
     },
     Nome: {

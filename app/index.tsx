@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
         borderColor: "white", 
         borderStyle: "solid", 
     },
+
     btnText: {
         color: "white",
         fontWeight: "bold",
