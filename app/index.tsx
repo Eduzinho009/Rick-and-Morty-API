@@ -26,18 +26,20 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
+        overflowX: "hidden",
     },
     background: {
         flex: 1, 
         resizeMode: "cover",
         justifyContent: "center",
         alignItems: "center",
-        width: 380,
+        width: 430,
         height: 1000
     },
     center: {
         alignItems: "center",
         justifyContent: "center",
+        marginRight: 20
     },
     texto: {
         color: "white",
